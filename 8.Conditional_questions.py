@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Q.1  23----89 
 # this number is between 23 to 89
 
@@ -108,18 +107,18 @@
 
 # input mismatch
 
-n = input("Enter any charcter:-")
-if (n=='s'):
-    print('this is swap method without using third vairable :)')
-    a = int(input("Enter any value:-"))
-    b = int(input('Enter second value:-'))
-    print("Before swap",a,b)
+# n = input("Enter any charcter:-")
+# if (n=='s'):
+#     print('this is swap method without using third vairable :)')
+#     a = int(input("Enter any value:-"))
+#     b = int(input('Enter second value:-'))
+#     print("Before swap",a,b)
 
-    # Arithmetic operator:-
-    a= a+b
-    b = a-b
-    a = a-b
-    print("After swap:-",a,b)
+#     # Arithmetic operator:-
+#     a= a+b
+#     b = a-b
+#     a = a-b
+#     print("After swap:-",a,b)
 
     # Xor operator:-
     # a = a^b
@@ -127,25 +126,39 @@ if (n=='s'):
     # a = a^b
     # print("After swap:-",a,b)
 
-elif(n=='w'):
-    print("this is swap method with third vairable :-)")
-    a = int(input("enter the value1 :-"))
-    b=  int(input("Enter the value2 :-"))
-    temp = 0
-    print("Before swap",a,b)
+# elif(n=='w'):
+#     print("this is swap method with third vairable :-)")
+#     a = int(input("enter the value1 :-"))
+#     b=  int(input("Enter the value2 :-"))
+#     temp = 0
+#     print("Before swap",a,b)
 
-    # First method:------->>>>
-    # temp = a
-    # a = b
-    # b=  temp
-    # print("After swap",a,b)
+#     # First method:------->>>>
+#     # temp = a
+#     # a = b
+#     # b=  temp
+#     # print("After swap",a,b)
 
-    # Second method---->>>>>
-    a,b= b,a
-    print("after swap",a,b)
+#     # Second method---->>>>>
+#     a,b= b,a
+#     print("after swap",a,b)
 
 
+# Q. 8 1--->10 this number is between 1 to 10
+# 11--->20 this number is between 11 to 20
+# 21--->30 this number is between 21 to 30
 
+# input mismatch 
+
+# n= int(input("Enter the value:-"))
+# if(n>=1 and n<=10):
+#     print("The number is :",n)
+# elif(n>=11 and n<=20):
+#     print("This number is :",n)
+# elif(n>=21 and n<=30):
+#     print("This number  is :",n)
+# else:
+#     print("input mismatch")
 
 
 
@@ -242,44 +255,3 @@ elif(n=='w'):
 # print(a+b)
 # print(a-b)
 # print(a*b)
-=======
-# Q.1  23----89 
-# this number is between 23 to 89
-
-# a  = int(input("enter the number:-"))
-# if (a>=23 and a<=89):
-#     print(a,"This number is between 23 to 89")
-
-# else:
-#     print('mis match')
-
-
-# Q.2 this number is between 11 to 20
-
-# a  = int(input("enter the number:-"))
-# if (a>=11 and a<=20):
-#     print(a,":","this number is between 11 and 20")
-# else:
-#     print("mis match")
-
-# Q.3 user input this number 7 and 3 both valid not?
-
-	
-# n = int(input())
-
-# if n % 2 != 0: 
-#     print("Weird")
-# elif n % 2 == 0 and n in range(2, 6):  
-#     print("Not Weird")
-# elif n % 2 == 0 and n in range(6, 21): 
-#     print("Weird")
-# elif n % 2 == 0 and n > 20:  
-#     print("Not Weird")
-
-a =int (input("Enter the number:"))
-b =int (input("Enter the number:"))
-
-print(a+b)
-print(a-b)
-print(a*b)
->>>>>>> 939d5be10aa0d719e3dbadaef16571c75c76f478
