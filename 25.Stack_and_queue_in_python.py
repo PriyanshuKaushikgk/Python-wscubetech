@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Stack in python:--->
 # The Stack is alinear data structure.
 # Stores items in a last - in /first-out (LIFO) or First-In/Last-Out(FILO) manner.
@@ -102,7 +102,7 @@ while True:
         print("invalid operations")
 
 
-=======
+
 # Stack in python:--->
 # The Stack is alinear data structure.
 # Stores items in a last - in /first-out (LIFO) or First-In/Last-Out(FILO) manner.
@@ -206,4 +206,3 @@ while True:
         print("invalid operations")
 
 
->>>>>>> 560dd38c076599402728a14c966acec587d4e178
