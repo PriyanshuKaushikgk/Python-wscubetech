@@ -8,21 +8,40 @@
 
 
 
-n = int(input("Enter number:"))
-if (n==1):
-    print('sunday')
-elif (n==2):
-    print('monday')
-elif (n==3):
-    print('tuesday')
-elif (n==4):
-    print('wednesday')
-elif (n==5):
-    print('thrusday')
-elif (n==6):
-    print('friday')
-elif (n==7):
-    print('saturday')
+# n = int(input("Enter number:"))
+# if (n==1):
+#     print('sunday')
+# elif (n==2):
+#     print('monday')
+# elif (n==3):
+#     print('tuesday')
+# elif (n==4):
+#     print('wednesday')
+# elif (n==5):
+#     print('thrusday')
+# elif (n==6):
+#     print('friday')
+# elif (n==7):
+#     print('saturday')
 
-else:
-    print('input mismatch')
+# else:
+#     print('input mismatch')
+
+
+
+
+t = int(input())
+for i in range(t):
+    n = int(input())
+    
+    # Condition 1
+    if n%3== 0:
+        print('Divisible by 3')
+    else:
+        print('Not divisible by 3')
+    
+    #Condition 2
+    if n%2!= 0:
+        print('Odd')
+    else:
+        print('Even')
